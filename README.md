@@ -25,3 +25,7 @@ Após a configuração, volte ao projeto e execute os seguintes comandos no term
 
 - Rodar o aplicativo:
   - flutter run -d _nome_do_dispositivo_
+
+## Documentação do Projeto
+
+Leia a [_documentação do projeto_](https://github.com/SysDoa/Documentos), para seguir padrões pré-definidos, evitando conflitos de códigos e manter a conformidade com a qualidade de software. 
