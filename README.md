@@ -10,7 +10,13 @@ Primeiramente, instale todas as configurações do flutter em sua máquina, caso
 
 Em seguida, pegue o ip de internet cabeada usb entre o seu smartphone e a sua máquina e adicione na baseUrl: 
 
-[baseUrl]()
+[baseUrl](lib/src/infra/apis/api_infra.dart)
+
+Adicione também o ip no [**_application.properties_**](https://github.com/SysDoa/Backend/blob/main/src/main/resources/application.properties) no backend do projeto. Em qualquer linha do arquivo adicione: 
+
+- server.address=**_número-do-ip_**
+
+Depois execute o backend.
 
 Após a configuração, volte ao projeto e execute os seguintes comandos no terminal:
 
@@ -24,7 +30,7 @@ Após a configuração, volte ao projeto e execute os seguintes comandos no term
     - flutter devices
 
 - Rodar o aplicativo:
-  - flutter run -d _nome_do_dispositivo_
+  - flutter run -d _nome_do_dispositivo_ --verbose
 
 ## Documentação do Projeto
 
