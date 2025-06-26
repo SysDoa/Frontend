@@ -8,7 +8,8 @@ class UploadServiceImpl implements UploadService {
   @override
   Future<File?> getFileJson() async {
     final result = await FilePicker.platform.pickFiles(
-      type: FileType.any
+      type: FileType.custom,
+      allowedExtensions: ['json']
     );
 
     if (result != null && result.files.single.path != null) {
